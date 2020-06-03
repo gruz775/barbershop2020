@@ -201,6 +201,7 @@ img {
 }
 
 /* Modal */
+
 .modal {
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
@@ -213,4 +214,18 @@ img {
 .modal-login h2 {
   font-size: 30px;
   line-height: 42px;
+}
+
+/* Login form */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-extra-light);
+  border: 2px solid var(--basic-black);
+}
+
+.login-form input:focus {
+  border-color: var(--special);
 }
