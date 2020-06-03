@@ -241,3 +241,14 @@ img {
   background-position: 270px center;
   background-repeat: no-repeat;
 }
+
+/* Restore */
+.restore {
+  color: var(--basic-black);
+  text-decoration: underline;
+}
+
+.restore:hover,
+.rrstore:focus {
+  text-decoration: none;
+}
