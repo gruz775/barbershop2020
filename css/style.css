@@ -9,6 +9,8 @@
   --special: #663d15;
 }
 
+/* Global */
+
 body {
   min-width: 960px;
   margin: 0;
@@ -32,4 +34,17 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--basic-white);
+  background-color: transparent;
+}
+
+.main-navigation-wraper {
+  background-color: var(--basic-black);
 }
