@@ -257,6 +257,14 @@ img {
   background-color: var(--special);
 }
 
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
 /*Main footer*/
 
 .main-footer {
