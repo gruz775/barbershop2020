@@ -205,6 +205,12 @@ img {
   color: var(--basic-dark);
 }
 
+.product-price b {
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--basic-neutral);
+}
+
 /* Appointment */
 .appointment-item input{
   font: inherit;
