@@ -181,6 +181,12 @@ img {
   color: var(--basic-dark);
 }
 
+/* Product photos */
+
+.product-photo-preview {
+  list-style: none;
+}
+
 /* Appointment */
 .appointment-item input{
   font: inherit;
