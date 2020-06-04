@@ -236,6 +236,11 @@ img {
   background-color: var(--basic-neutral);
 }
 
+.catalog-item-price .button {
+  line-height: 20px;
+  color: var(--basic-white);
+}
+
 /*Main footer*/
 
 .main-footer {
