@@ -160,7 +160,7 @@ img {
 
 .inner-page {
   color: var(--basic-black);
-  background-color: var(--basic=extra-light);
+  background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
@@ -204,6 +204,20 @@ img {
 .filter-input-checkbox:hover + label,
 .filter-input-checkbox:focus + label {
   color: var(--special);
+}
+
+/* Catalog */
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: var(--basic-extra-light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item a {
+  color: var(--basic-black);
 }
 
 /*Main footer*/
