@@ -246,6 +246,17 @@ img {
   list-style: none;
 }
 
+.pagination-item a{
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: var(--special);
+}
+
 /*Main footer*/
 
 .main-footer {
