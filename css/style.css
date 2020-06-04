@@ -241,6 +241,11 @@ img {
   color: var(--basic-white);
 }
 
+/* Pagination */
+.pagination-list {
+  list-style: none;
+}
+
 /*Main footer*/
 
 .main-footer {
