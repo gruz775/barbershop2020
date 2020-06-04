@@ -34,8 +34,14 @@ a {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+}
+
+/* Main header */
+
+.inner-page .main-header {
+  background-color: var(--basic-black);
 }
 
 /* Main navigation */
@@ -151,6 +157,15 @@ img {
 .appointment-item input:focus {
   border-color: var(--special);
 }
+
+.inner-page {
+  color: var(--basic-black);
+  background-color: var(--basic=extra-light);
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 
 /*Main footer*/
 
