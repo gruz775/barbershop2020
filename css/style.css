@@ -241,16 +241,39 @@ img {
 /* Contacts */
 
 .contacts {
+  width: 380px;
   outline: 5px solid rgba(0, 255, 255, 0.7);
   outline-offset: -5px;
+}
+
+.contacts p {
+  margin 0;
+  margin-bottom: 25px;
 }
 
 /* Appointment */
 
 .appointment {
+  width: 300px;
   outline: 5px solid rgba(0, 255, 0, 0.7);
   outline-offset: -5px;
 }
+
+.appointment-info {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.appointment-item input{
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid var(--basic-black);
+}
+
+.appointment-item input:focus {
+  border-color: var(--special);
+}
+
 
 /* Button */
 
@@ -349,17 +372,6 @@ img {
 
 .product-info ul {
   list-style: none;
-}
-
-/* Appointment */
-.appointment-item input{
-  font: inherit;
-  background-color: transparent;
-  border: 2px solid var(--basic-black);
-}
-
-.appointment-item input:focus {
-  border-color: var(--special);
 }
 
 .inner-page {
