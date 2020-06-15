@@ -280,6 +280,11 @@ img {
   border-color: var(--special);
 }
 
+.appointment .button {
+  margin-top: 10px;
+  margin-right: 0;
+}
+
 
 /* Button */
 
