@@ -145,6 +145,7 @@ img {
 /* Features */
 
 .features {
+  margin-bottom: 80px;
   outline: 5px solid rgba(255, 0, 0, 0.3);
 }
 
