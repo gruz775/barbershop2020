@@ -206,6 +206,10 @@ img {
   list-style: none;
 }
 
+.news-item {
+  margin-bottom: 25px;
+}
+
 /* Gallery */
 
 .gallery {
