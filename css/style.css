@@ -613,6 +613,10 @@ img {
   border-color: var(--special);
 }
 
+.login-form .login-help {
+  margin: 15px auto;
+}
+
 .login-icon-user {
   background-image: url("../img/user.svg");
   background-position: 270px center;
