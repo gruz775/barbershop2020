@@ -562,6 +562,9 @@ img {
 }
 
 .footer-copyright {
+  max-width: 150px;
+  margin: 0;
+  justify-self: end;
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
