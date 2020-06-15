@@ -54,8 +54,12 @@ img {
 /* Main header */
 
 
-.inner-page, .main-header {
+.main-header {
+  margin-bottom: 70px;
   background-color: var(--basic-black);
+  
+  outline: 5px solid rgba(0, 255, 0, 0.3);
+  outline-offset: -5px;
 }
 
 /* Main navigation */
