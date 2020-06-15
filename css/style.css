@@ -64,6 +64,9 @@ img {
 /* Main navigation */
 
 .main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 16px;
   line-height: 20px;
   color: var(--basic-white);
@@ -92,6 +95,11 @@ img {
 }
 
 /* User navigation */
+
+.user-navigation {
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
+}
 
 .site-navigation a,
 .user-navigation a {
