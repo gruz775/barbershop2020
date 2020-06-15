@@ -264,6 +264,11 @@ img {
   margin-bottom: 15px;
 }
 
+.appointment-item {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 .appointment-item input{
   font: inherit;
   background-color: transparent;
