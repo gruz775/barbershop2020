@@ -44,6 +44,13 @@ img {
   height: 100%;
 }
 
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template: min-content 1fr min-content;
+  align-content: start;
+}
+
 /* Main header */
 
 
