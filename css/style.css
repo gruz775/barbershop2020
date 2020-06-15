@@ -119,6 +119,7 @@ img {
 /* User navigation */
 
 .user-navigation {
+  max-width: 140px;
   outline: 5px solid rgba(255, 0, 255, 0.3);
   outline-offset: -5px;
 }
