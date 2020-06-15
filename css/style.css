@@ -136,7 +136,17 @@ img {
   background-color: var(--basic-extra-dark);
 }
 
+/* Login link */
+
+.user-navigation .login-link {
+  padding-left: 50px;
+}
+
 /* Features */
+
+.features {
+  outline: 5px solid rgba(255, 0, 0, 0.3);
+}
 
 .features-list {
   list-style: none;
@@ -144,6 +154,8 @@ img {
 
 .feature-item {
   text-align: center;
+  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline-offset: -5px;
 }
 
 .feature-item h3 {
