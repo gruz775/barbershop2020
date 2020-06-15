@@ -217,6 +217,7 @@ img {
 /* Gallery */
 
 .gallery {
+  width: 300px;
   outline: 5px solid rgba(0, 255, 0, 0.7);
   outline-offset: -5px;
 }
