@@ -500,6 +500,13 @@ img {
   background-image: url("../img/pattern-dark.jpg");
   background-position: 0 0;
   background-repeat: repeat;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.footer-contacts {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-contacts a {
@@ -514,6 +521,8 @@ img {
 
 .footer-social {
   text-align: center;
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-social ul {
@@ -532,6 +541,11 @@ img {
 .social-button:hover,
 .social-button:focus {
   background-color: var(--basic-white);
+}
+
+.footer-copyright {
+  outline: 5px solid rgba(255, 0, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-copyright .button:hover,
