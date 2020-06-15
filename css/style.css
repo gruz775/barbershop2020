@@ -227,8 +227,15 @@ img {
 }
 
 .gallery-content {
+  height: 164px;
+  margin: 0;
   background-color: var(--basic-dark);
   border: 7px solid var(--basic-white);
+}
+
+.gallery-content img {
+  width: 286px;
+  height: 164px;
 }
 
 /* Button */
