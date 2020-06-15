@@ -594,6 +594,12 @@ img {
 }
 
 /* Login form */
+
+.login-form {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 .login-form input[type="email"],
 .login-form input[type="password"] {
   font: inherit;
