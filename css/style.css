@@ -270,6 +270,7 @@ img {
 }
 
 .appointment-item input{
+  width: 140px;
   font: inherit;
   background-color: transparent;
   border: 2px solid var(--basic-black);
