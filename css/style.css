@@ -210,6 +210,10 @@ img {
   margin-bottom: 25px;
 }
 
+.news-item p {
+  margin: 0;
+}
+
 /* Gallery */
 
 .gallery {
