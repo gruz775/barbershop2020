@@ -518,6 +518,10 @@ img {
   outline-offset: -5px;
 }
 
+.footer-contacts p {
+  margin: 0;
+}
+
 .footer-contacts a {
   color: var(--basic-white);
   text-decoration: underline;
