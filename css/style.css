@@ -181,6 +181,7 @@ img {
   background-image: url("../img/pattern-light.jpg");
   background-position: center, 0 0;
   background-repeat: no-repeat, repeat;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
 }
 
 .index-columns h2 {
@@ -190,11 +191,21 @@ img {
 
 /* News */
 
+.news {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
+}
+
 .news-list {
   list-style: none;
 }
 
 /* Gallery */
+
+.gallery {
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+  outline-offset: -5px;
+}
 
 .gallery-content {
   background-color: var(--basic-dark);
