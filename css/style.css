@@ -176,6 +176,9 @@ img {
 /* Index columns */
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
