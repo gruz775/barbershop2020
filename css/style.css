@@ -506,6 +506,11 @@ img {
   outline-offset: -5px;
 }
 
+.main-footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .footer-contacts {
   outline: 5px solid rgba(0, 255, 255, 0.7);
   outline-offset: -5px;
