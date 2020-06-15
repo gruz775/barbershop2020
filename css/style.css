@@ -82,6 +82,8 @@ img {
 /* Logo */
 
 .main-header-logo {
+  width: 368px;
+  height: 153px;
   outline: 5px solid rgba(255, 0, 0, 0.3);
   outline-offset: -5px;
 }
