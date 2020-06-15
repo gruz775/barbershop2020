@@ -541,6 +541,9 @@ img {
 }
 
 .footer-social ul {
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
   list-style: none;
 }
 
