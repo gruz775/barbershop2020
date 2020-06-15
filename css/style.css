@@ -229,6 +229,8 @@ img {
 /* Button */
 
 .button {
+  display: inline-block;
+  margin-right: 16px;
   font: inherit;
   text-align: center;
   color: var(--basic-white);
