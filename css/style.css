@@ -222,6 +222,10 @@ img {
   outline-offset: -5px;
 }
 
+.gallery-container {
+  height: 260px;
+}
+
 .gallery-content {
   background-color: var(--basic-dark);
   border: 7px solid var(--basic-white);
