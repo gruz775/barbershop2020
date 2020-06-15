@@ -169,6 +169,10 @@ img {
   line-height: 42px;
 }
 
+.feature-item p {
+  margin: 0 10px;
+}
+
 /* Index columns */
 
 .index-columns {
