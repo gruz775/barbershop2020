@@ -533,6 +533,8 @@ img {
 }
 
 .footer-social {
+  width: 145px;
+  justify-self: center;
   text-align: center;
   outline: 5px solid rgba(0, 255, 0, 0.7);
   outline-offset: -5px;
