@@ -530,6 +530,12 @@ img {
   margin: 0;
 }
 
+.catalog-item-price {
+  display: flex;
+  margin: 15px;
+  margin-top: 0;
+}
+
 .catalog-item-price b {
   font-size: 14px;
   line-height: 20px;
