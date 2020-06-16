@@ -458,6 +458,7 @@ img {
 
 /* Filters */
 .filters {
+  width: 180px;
   outline-offset: -5px;
   outline: 5px solid rgba(255, 0, 255, 0.7);
 }
