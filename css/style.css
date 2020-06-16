@@ -524,6 +524,12 @@ img {
   text-transform: none;
 }
 
+.catalog-item-image {
+  width: 220px;
+  height: 165px;
+  margin: 0;
+}
+
 .catalog-item-price b {
   font-size: 14px;
   line-height: 20px;
