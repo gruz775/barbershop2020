@@ -357,6 +357,8 @@ img {
 }
 
 .page-title {
+  margin: 0;
+  margin-bottom: 15px;
   font-size: 30px;
   line-height: 42px;
 }
