@@ -544,6 +544,7 @@ img {
 }
 
 .catalog-item-price .button {
+  margin-right: 0;
   line-height: 20px;
   color: var(--basic-white);
 }
