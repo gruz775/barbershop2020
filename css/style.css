@@ -54,6 +54,9 @@ img {
 /* Grid for pages */
 
 .page-catalog {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-content: start;
   outline-offset: -5px;
   outline: 5px solid rgba(255, 0, 0, 0.7);
 }
@@ -447,7 +450,7 @@ img {
 }
 
 /* Filters */
-.filter {
+.filters {
   outline-offset: -5px;
   outline: 5px solid rgba(255, 0, 255, 0.7);
 }
