@@ -503,6 +503,10 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .catalog-item a {
   color: var(--basic-black);
 }
