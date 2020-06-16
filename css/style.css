@@ -59,6 +59,10 @@ img {
   outline-offset: -5px;
 }
 
+.inner-page .main-header {
+  background-color: var(--basic-black);
+}
+
 /* Main navigation */
 
 .main-navigation {
@@ -69,6 +73,11 @@ img {
   line-height: 20px;
   color: var(--basic-white);
   background-color: transparent;
+}
+
+.inner-page .main-navigation {
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 .main-navigation-wrapper {
@@ -85,6 +94,12 @@ img {
   height: 153px;
   outline: 5px solid rgba(255, 0, 0, 0.3);
   outline-offset: -5px;
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+  width: 111px;
+  height: 24px;
 }
 
 /* Container */
