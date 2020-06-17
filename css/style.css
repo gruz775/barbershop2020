@@ -54,6 +54,9 @@ img {
 /* Grid for pages */
 
 .page-product {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  align-content: start;
   outline: 5px solid rgba(255, 0, 0, 0.7);
 }
 
