@@ -407,6 +407,7 @@ img {
 
 .product-photos {
   outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .product-photo-preview {
@@ -443,6 +444,9 @@ img {
 
 /* Product info */
 .product-info {
+  width: 390px;
+  padding-top: 23px;
+  padding-left: 80px;
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
