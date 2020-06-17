@@ -53,6 +53,19 @@ img {
 
 /* Grid for pages */
 
+.page-product {
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+}
+
+.page-product .page-title {
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.page-product .breadcrumbs {
+  outline: 5px solid rgba(0, 0, 255, 0.7);
+}
+
 .page-catalog {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -386,6 +399,10 @@ img {
 
 /* Product photos */
 
+.product-photos {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+}
+
 .product-photo-preview {
   list-style: none;
 }
@@ -415,6 +432,11 @@ img {
 }
 
 /* Product info */
+.product-info {
+  outline: 5px solid rgba(255, 0, 255, 0.7);
+  outline-offset: -5px;
+}
+
 .product-info h3 {
   font-size: 24px;
   line-height: 30px;
