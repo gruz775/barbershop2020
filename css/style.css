@@ -53,6 +53,25 @@ img {
 
 /* Grid for pages */
 
+.page-product {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  align-content: start;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+}
+
+.page-product .page-title {
+  grid-column: 1 / -1;
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.page-product .breadcrumbs {
+  grid-column: 1 / -1;
+  margin-bottom: 40px;
+  outline: 5px solid rgba(0, 0, 255, 0.7);
+}
+
 .page-catalog {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -158,6 +177,10 @@ img {
   max-width: 140px;
   outline: 5px solid rgba(255, 0, 255, 0.3);
   outline-offset: -5px;
+}
+
+.inner-page .user-navigation {
+  margin-left: auto;
 }
 
 .site-navigation a,
@@ -386,6 +409,11 @@ img {
 
 /* Product photos */
 
+.product-photos {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
+}
+
 .product-photo-preview {
   list-style: none;
 }
@@ -400,6 +428,10 @@ img {
 
 .product-photo-full {
   display: block;
+  width: 460px;
+  height: 498px;
+  margin: 0;
+  margin-bottom: 20px;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -412,16 +444,54 @@ img {
   line-height: 20px;
   text-align: center;
   background-color: var(--basic-neutral);
+  width: 112px;
 }
 
 /* Product info */
+.product-info {
+  width: 390px;
+  padding-top: 23px;
+  padding-left: 80px;
+  outline: 5px solid rgba(255, 0, 255, 0.7);
+  outline-offset: -5px;
+}
+
+.product-info p {
+  margin: 0;
+}
+
+.product-description {
+  padding-right: 10px;
+  margin-bottom: 29px;
+}
+
+.product-description p {
+  width: 200px;
+}
+
+.product-info .product-text {
+  margin-bottom: 35px;
+}
+
+.product-info .product-price {
+  display: flex;
+  margin-bottom: 63px;
+}
+
+.product-price .button {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
 .product-info h3 {
+  margin: 0;
+  margin-bottom: 27px;
   font-size: 24px;
   line-height: 30px;
 }
 
-.product-info ul {
-  list-style: none;
+.product-info li {
+  position: relative;
 }
 
 .inner-page {
@@ -608,6 +678,16 @@ img {
   outline-offset: -5px;
 }
 
+.inner-page .main-footer {
+  margin-top: 45px;
+  background-image:
+    lenear-gradient(to bottom, black, transparent),
+    url("../img/pattern-dark.jpg");
+  background-size: 10px 40px, auto;
+  background-position: 0 0;
+  background-repeat: repeat-x, repeat;
+}
+
 .main-footer .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -649,7 +729,10 @@ img {
 }
 
 .footer-social h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
   font-size: 14px;
+  display: block;
 }
 
 /* Social button */
@@ -666,6 +749,7 @@ img {
   max-width: 150px;
   margin: 0;
   justify-self: end;
+  text-align: center;
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
@@ -689,6 +773,7 @@ img {
 /* Modal */
 
 .modal {
+  display: none;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
