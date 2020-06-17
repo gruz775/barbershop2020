@@ -179,6 +179,10 @@ img {
   outline-offset: -5px;
 }
 
+.inner-page .user-navigation {
+  margin-left: auto;
+}
+
 .site-navigation a,
 .user-navigation a {
   color: var(--basic-white);
@@ -465,6 +469,10 @@ img {
   width: 200px;
 }
 
+.product-info .product-text {
+  margin-bottom: 35px;
+}
+
 .product-info .product-price {
   display: flex;
   margin-bottom: 63px;
@@ -476,12 +484,14 @@ img {
 }
 
 .product-info h3 {
+  margin: 0;
+  margin-bottom: 27px;
   font-size: 24px;
   line-height: 30px;
 }
 
-.product-info ul {
-  list-style: none;
+.product-info li {
+  position: relative;
 }
 
 .inner-page {
@@ -668,6 +678,16 @@ img {
   outline-offset: -5px;
 }
 
+.inner-page .main-footer {
+  margin-top: 45px;
+  background-image:
+    lenear-gradient(to bottom, black, transparent),
+    url("../img/pattern-dark.jpg");
+  background-size: 10px 40px, auto;
+  background-position: 0 0;
+  background-repeat: repeat-x, repeat;
+}
+
 .main-footer .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -709,7 +729,10 @@ img {
 }
 
 .footer-social h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
   font-size: 14px;
+  display: block;
 }
 
 /* Social button */
@@ -726,6 +749,7 @@ img {
   max-width: 150px;
   margin: 0;
   justify-self: end;
+  text-align: center;
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
@@ -749,6 +773,7 @@ img {
 /* Modal */
 
 .modal {
+  display: none;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
   background-image: url("../img/pattern-light.jpg");
