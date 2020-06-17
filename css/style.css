@@ -440,6 +440,7 @@ img {
   line-height: 20px;
   text-align: center;
   background-color: var(--basic-neutral);
+  width: 112px;
 }
 
 /* Product info */
@@ -465,6 +466,7 @@ img {
 }
 
 .product-info .product-price {
+  display: flex;
   margin-bottom: 63px;
 }
 
