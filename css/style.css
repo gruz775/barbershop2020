@@ -451,6 +451,28 @@ img {
   outline-offset: -5px;
 }
 
+.product-info p {
+  margin: 0;
+}
+
+.product-description {
+  padding-right: 10px;
+  margin-bottom: 29px;
+}
+
+.product-description p {
+  width: 200px;
+}
+
+.product-info .product-price {
+  margin-bottom: 63px;
+}
+
+.product-price .button {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
 .product-info h3 {
   font-size: 24px;
   line-height: 30px;
