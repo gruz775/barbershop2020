@@ -182,7 +182,6 @@ input[type="radio"].visually-hidden {
   padding: 0;
   min-height: 70px;
   outline: 5px solid #ff0000;
-  outline-offset: -5px;
   list-style: none;
 }
 
@@ -195,7 +194,6 @@ input[type="radio"].visually-hidden {
 .user-navigation {
   max-width: 140px;
   outline: 5px solid #ff0000;;
-  outline-offset: -5px;
 }
 
 .inner-page .user-navigation {
@@ -229,6 +227,13 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+  opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+  opacity: 1;
 }
 
 .user-navigation .login-link {
