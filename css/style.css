@@ -205,6 +205,7 @@ input[type="radio"].visually-hidden {
 .site-navigation a,
 .user-navigation a {
   color: var(--basic-white);
+  display: block;
 }
 
 .site-navigation a:hover,
