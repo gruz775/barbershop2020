@@ -820,6 +820,9 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 141px;
   margin: 0 auto;
   padding: 0;
@@ -834,13 +837,25 @@ input[type="radio"].visually-hidden {
 }
 
 /* Social button */
+
 .social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: var(--basic-black);
   color: inherit;
 }
 
 .social-button:hover,
 .social-button:focus {
   background-color: var(--basic-white);
+}
+
+.social-button:hover path,
+.social-button:focus path {
+  fill: var(--basic-black);
 }
 
 .footer-copyright {
