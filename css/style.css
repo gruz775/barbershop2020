@@ -172,12 +172,16 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+/* Site Navigation */
+
 .site-navigation {
+  display: flex;
+  flex-wrap: wrap;
   width: 620px;
   margin: 0;
   padding: 0;
   min-height: 70px;
-  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline: 5px solid #ff0000;
   outline-offset: -5px;
   list-style: none;
 }
