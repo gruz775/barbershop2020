@@ -80,8 +80,8 @@
             <img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
           </a>
         </figure>
-        <button class="button" type="button" disabled>Назад</button>
-        <button class="button" type="button">Вперед</button>
+        <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
       </div>
     </section>
     
@@ -108,7 +108,7 @@
     <section class="appointment">
       <h2>Записаться</h2>
       <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="appointment-item">
           <label for="appointment-date">Дата</label>
           <input id="appointment-date" type="text" name="date" placeholder="01.01.2020">
