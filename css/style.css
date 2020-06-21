@@ -843,6 +843,10 @@ input[type="radio"].visually-hidden {
   margin-right: 5px;
 }
 
+.pagination-item:last-child {
+  margin-right: 0;
+}
+
 .pagination-item a {
   display: block;
   padding: 10px 19px;
