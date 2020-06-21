@@ -803,6 +803,8 @@ input[type="radio"].visually-hidden {
   width: 220px;
   height: 165px;
   margin: 0;
+  object-fit: contain;
+  background-color: #f7f7f7;
 }
 
 .catalog-item-price {
@@ -830,6 +832,8 @@ input[type="radio"].visually-hidden {
 /* Pagination */
 
 .pagination-list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
