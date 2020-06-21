@@ -780,6 +780,8 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item a {
+  display: flex;
+  flex-direction: column;
   color: var(--basic-black);
 }
 
