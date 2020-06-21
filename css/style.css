@@ -722,6 +722,16 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
+.filter-input-radio + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000000;
+}
+
 /* Catalog */
 
 .catalog {
