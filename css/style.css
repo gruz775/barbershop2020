@@ -839,7 +839,11 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.pagination-item a{
+.pagination-item {
+  margin-right: 5px;
+}
+
+.pagination-item a {
   display: block;
   padding: 10px 19px;
   color: var(--basic-white);
