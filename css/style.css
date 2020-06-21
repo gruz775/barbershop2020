@@ -490,6 +490,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
 }
 
 .breadcrumbs a {
