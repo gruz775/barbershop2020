@@ -717,7 +717,9 @@ input[type="radio"].visually-hidden {
   left: -38px;
   width: 12px;
   height: 12px;
-  background-color: green;
+  background-image: url("../img/cross.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 /* Catalog */
