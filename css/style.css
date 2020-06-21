@@ -744,6 +744,11 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
 }
 
+.filter-button {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 /* Catalog */
 
 .catalog {
