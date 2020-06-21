@@ -652,6 +652,7 @@ input[type="radio"].visually-hidden {
 }
 
 /* Filters */
+
 .filters {
   width: 180px;
   outline-offset: -5px;
@@ -685,6 +686,13 @@ input[type="radio"].visually-hidden {
 .filter-option {
   margin-bottom: 19px;
   padding-left: 45px;
+}
+
+.filter-option label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
 }
 
 .filter-input-checkbox:hover + label,
