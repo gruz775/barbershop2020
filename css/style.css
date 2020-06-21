@@ -500,6 +500,14 @@ input[type="radio"].visually-hidden {
   margin-right: 42px;
 }
 
+.breadcrumbs li::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+}
+
 .breadcrumbs a {
   color: var(--basic-black);
 }
