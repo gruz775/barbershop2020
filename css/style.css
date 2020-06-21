@@ -821,6 +821,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item-price .button {
+  padding: 13px 18px 11px;
   margin-right: 0;
   line-height: 20px;
   color: var(--basic-white);
