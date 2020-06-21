@@ -503,6 +503,8 @@ input[type="radio"].visually-hidden {
 .breadcrumbs li::after {
   content: "";
   position: absolute;
+  top: 7px;
+  right: -25px;
   width: 8px;
   height: 8px;
   background-color: #000000;
