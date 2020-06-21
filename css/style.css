@@ -511,6 +511,10 @@ input[type="radio"].visually-hidden {
   transform: rotate(45deg);
 }
 
+.breacdrumbs li:last-child {
+  margin-right: 0;
+}
+
 .breadcrumbs a {
   color: var(--basic-black);
 }
