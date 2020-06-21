@@ -733,6 +733,17 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
 }
 
+.filter-input-radio:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -36px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
 /* Catalog */
 
 .catalog {
