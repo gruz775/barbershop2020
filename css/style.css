@@ -578,6 +578,11 @@ input[type="radio"].visually-hidden {
   text-align: center;
   background-color: var(--basic-neutral);
   width: 112px;
+  padding-top: 13px;
+  padding-right: 36px;
+  padding-bottom: 11px;
+  padding-left: 36px;
+  box-sizing: border-box;
 }
 
 /* Product info */
