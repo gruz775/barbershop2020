@@ -594,6 +594,8 @@ input[type="radio"].visually-hidden {
 }
 
 .product-description {
+  display: flex;
+  justify-content: space-between;
   padding-right: 10px;
   margin-bottom: 29px;
 }
