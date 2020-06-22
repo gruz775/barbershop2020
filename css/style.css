@@ -649,6 +649,7 @@ input[type="radio"].visually-hidden {
   width: 8px;
   height: 8px;
   background-color: var(--basic-black);
+  transform: rotate(45deg);
 }
 
 .inner-page {
