@@ -638,6 +638,7 @@ input[type="radio"].visually-hidden {
 
 .product-info li {
   position: relative;
+  padding-left: 23px;
 }
 
 .inner-page {
